@@ -1,0 +1,159 @@
+/* Base Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f5;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: #3498db 4px solid;
+  border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  letter-spacing: 1.5px;
+}
+
+/* Navigation Bar */
+nav {
+  background: #34495e;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 15px 25px;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+/* Section */
+section {
+  padding: 25px;
+  margin: 25px 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 2.2em;
+  margin-top: 0;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+section p {
+  margin: 15px 0;
+  font-size: 1.15em;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #ecf0f1;
+  cursor: pointer;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.active {
+  background-color: #dcdcdc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 12px;
+  }
+
+  section h2 {
+    font-size: 1.8em;
+  }
+}

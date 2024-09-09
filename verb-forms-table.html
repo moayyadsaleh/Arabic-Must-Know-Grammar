@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arabic Verb Forms Table</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="style.css" />
+    <nav>
+      <ul>
+        <li><a href="root-system.html">Root System</a></li>
+        <li><a href="ten-forms.html">Ten Forms</a></li>
+        <li><a href="active-participle.html">Active Participle</a></li>
+        <li><a href="passive-participle.html">Passive Participle</a></li>
+        <li><a href="noun-of-place.html">Noun of Place</a></li>
+        <li><a href="verb-forms-table.html">Verb Forms Table</a></li>
+      </ul>
+    </nav>
+    <!-- Include Navbar -->
+    <div id="navbar"></div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .accordion {
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .accordion-header {
+        background-color: #f2f2f2;
+        padding: 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .accordion-header:hover {
+        background-color: #e6e6e6;
+      }
+
+      .accordion-content {
+        display: none;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+      }
+
+      .table-container {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      td {
+        background-color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        th,
+        td {
+          font-size: 14px;
+        }
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const headers = document.querySelectorAll(".accordion-header");
+        headers.forEach((header) => {
+          header.addEventListener("click", () => {
+            const content = header.nextElementSibling;
+            content.style.display =
+              content.style.display === "block" ? "none" : "block";
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div class="container">
+      <h1>The Ten Measures of the Triliteral Arabic Verb</h1>
+
+      <!-- Measure I -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure I - Regular</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>فَعَلَ</td>
+                  <td>يَفْعَلُ</td>
+                  <td>اِفْعَلْ</td>
+                  <td>فُعِلَ</td>
+                  <td>يُفْعَلُ</td>
+                  <td>فِعْلٌ</td>
+                  <td>فَاعِلٌ</td>
+                  <td>مَفْعُولٌ</td>
+                  <td>مَفْعَلٌ</td>
+                  <td>مِفْعَالٌ</td>
+                </tr>
+                <tr>
+                  <td>كَتَبَ</td>
+                  <td>يَكْتُبُ</td>
+                  <td>اُكْتُبْ</td>
+                  <td>كُتِبَ</td>
+                  <td>يُكْتَبُ</td>
+                  <td>كِتَابَةٌ</td>
+                  <td>كَاتِبٌ</td>
+                  <td>مَكْتُوبٌ</td>
+                  <td>مَكْتَبٌ</td>
+                  <td>مِكْتَبَةٌ</td>
+                </tr>
+                <tr>
+                  <td>قَرَأَ</td>
+                  <td>يَقْرَأُ</td>
+                  <td>اِقْرَأْ</td>
+                  <td>قُرِئَ</td>
+                  <td>يُقْرَأُ</td>
+                  <td>قِرَاءَةٌ</td>
+                  <td>قَارِئٌ</td>
+                  <td>مَقْرُوءٌ</td>
+                  <td>مَقْرَأٌ</td>
+                  <td>مِقْرَأَةٌ</td>
+                </tr>
+                <tr>
+                  <td>دَرَسَ</td>
+                  <td>يَدْرُسُ</td>
+                  <td>اُدْرُسْ</td>
+                  <td>دُرِسَ</td>
+                  <td>يُدْرَسُ</td>
+                  <td>دِرَاسَةٌ</td>
+                  <td>دَارِسٌ</td>
+                  <td>مَدْرُوسٌ</td>
+                  <td>مَدْرَسَةٌ</td>
+                  <td>مِدْرَسٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measure II -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure II - Causative Intensive or Denominative</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>فَعَّلَ</td>
+                  <td>يُفَعِّلُ</td>
+                  <td>فَعِّلْ</td>
+                  <td>فُعِّلَ</td>
+                  <td>يُفَعَّلُ</td>
+                  <td>تَفْعِيلٌ</td>
+                  <td>مُفَعِّلٌ</td>
+                  <td>مُفَعَّلٌ</td>
+                  <td>مَفْعَلٌ</td>
+                  <td>مِفْعَالٌ</td>
+                </tr>
+                <tr>
+                  <td>دَرَّسَ</td>
+                  <td>يُدَرِّسُ</td>
+                  <td>دَرِّسْ</td>
+                  <td>دُرِّسَ</td>
+                  <td>يُدَرَّسُ</td>
+                  <td>تَدْرِيسٌ</td>
+                  <td>مُدَرِّسٌ</td>
+                  <td>مُدَرَّسٌ</td>
+                  <td>مَدْرَسٌ</td>
+                  <td>مِدْرَسٌ</td>
+                </tr>
+                <tr>
+                  <td>قَطَّعَ</td>
+                  <td>يُقَطِّعُ</td>
+                  <td>قَطِّعْ</td>
+                  <td>قُطِّعَ</td>
+                  <td>يُقَطَّعُ</td>
+                  <td>تَقْطِيعٌ</td>
+                  <td>مُقَطِّعٌ</td>
+                  <td>مُقَطَّعٌ</td>
+                  <td>مَقْطَعٌ</td>
+                  <td>مِقْطَعٌ</td>
+                </tr>
+                <tr>
+                  <td>فَتَّحَ</td>
+                  <td>يُفَتِّحُ</td>
+                  <td>فَتِّحْ</td>
+                  <td>فُتِّحَ</td>
+                  <td>يُفَتَّحُ</td>
+                  <td>تَفْتِيحٌ</td>
+                  <td>مُفَتِّحٌ</td>
+                  <td>مُفَتَّحٌ</td>
+                  <td>مَفْتَحٌ</td>
+                  <td>مِفْتَحٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measure III -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure III - Associative</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>فَاعَلَ</td>
+                  <td>يُفَاعِلُ</td>
+                  <td>فَاعِلْ</td>
+                  <td>فُوعِلَ</td>
+                  <td>يُفَاعَلُ</td>
+                  <td>مُفَاعَلَةٌ</td>
+                  <td>مُفَاعِلٌ</td>
+                  <td>مُفَاعَلٌ</td>
+                  <td>مَفْعَلٌ</td>
+                  <td>مِفْعَالٌ</td>
+                </tr>
+                <tr>
+                  <td>كَاتَبَ</td>
+                  <td>يُكَاتِبُ</td>
+                  <td>كَاتِبْ</td>
+                  <td>كُوتِبَ</td>
+                  <td>يُكَاتَبُ</td>
+                  <td>مُكَاتَبَةٌ</td>
+                  <td>مُكَاتِبٌ</td>
+                  <td>مُكَاتَبٌ</td>
+                  <td>مَكْتَبٌ</td>
+                  <td>مِكْتَابٌ</td>
+                </tr>
+                <tr>
+                  <td>سَافَرَ</td>
+                  <td>يُسَافِرُ</td>
+                  <td>سَافِرْ</td>
+                  <td>سُوفِرَ</td>
+                  <td>يُسَافَرُ</td>
+                  <td>مُسَافَرَةٌ</td>
+                  <td>مُسَافِرٌ</td>
+                  <td>مُسَافَرٌ</td>
+                  <td>مَسْفَرٌ</td>
+                  <td>مِسْفَارٌ</td>
+                </tr>
+                <tr>
+                  <td>قَابَلَ</td>
+                  <td>يُقَابِلُ</td>
+                  <td>قَابِلْ</td>
+                  <td>قُوبِلَ</td>
+                  <td>يُقَابَلُ</td>
+                  <td>مُقَابَلَةٌ</td>
+                  <td>مُقَابِلٌ</td>
+                  <td>مُقَابَلٌ</td>
+                  <td>مَقْبَلٌ</td>
+                  <td>مِقْبَلٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measure IV -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure IV - Causative</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>أَفْعَلَ</td>
+                  <td>يُفْعِلُ</td>
+                  <td>أَفْعِلْ</td>
+                  <td>أُفْعِلَ</td>
+                  <td>يُفْعَلُ</td>
+                  <td>إِفْعَالٌ</td>
+                  <td>مُفْعِلٌ</td>
+                  <td>مُفْعَلٌ</td>
+                  <td>مَفْعَلٌ</td>
+                  <td>مِفْعَالٌ</td>
+                </tr>
+                <tr>
+                  <td>أَكْرَمَ</td>
+                  <td>يُكْرِمُ</td>
+                  <td>أَكْرِمْ</td>
+                  <td>أُكْرِمَ</td>
+                  <td>يُكْرَمُ</td>
+                  <td>إِكْرَامٌ</td>
+                  <td>مُكْرِمٌ</td>
+                  <td>مُكْرَمٌ</td>
+                  <td>مَكْرَمٌ</td>
+                  <td>مِكْرَمَةٌ</td>
+                </tr>
+                <tr>
+                  <td>أَغْلَقَ</td>
+                  <td>يُغْلِقُ</td>
+                  <td>أَغْلِقْ</td>
+                  <td>أُغْلِقَ</td>
+                  <td>يُغْلَقُ</td>
+                  <td>إِغْلَاقٌ</td>
+                  <td>مُغْلِقٌ</td>
+                  <td>مُغْلَقٌ</td>
+                  <td>مَغْلَقٌ</td>
+                  <td>مِغْلَقٌ</td>
+                </tr>
+                <tr>
+                  <td>أَطْلَقَ</td>
+                  <td>يُطْلِقُ</td>
+                  <td>أَطْلِقْ</td>
+                  <td>أُطْلِقَ</td>
+                  <td>يُطْلَقُ</td>
+                  <td>إِطْلَاقٌ</td>
+                  <td>مُطْلِقٌ</td>
+                  <td>مُطْلَقٌ</td>
+                  <td>مَطْلَقٌ</td>
+                  <td>مِطْلَقٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measure V -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure V - Reflexive of Measure II</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>تَفَعَّلَ</td>
+                  <td>يَتَفَعَّلُ</td>
+                  <td>تَفَعَّلْ</td>
+                  <td>تُفُعِّلَ</td>
+                  <td>يُتَفَعَّلُ</td>
+                  <td>تَفْعِيلٌ</td>
+                  <td>مُتَفَعِّلٌ</td>
+                  <td>مُتَفَعَّلٌ</td>
+                  <td>مَتْفَعَلٌ</td>
+                  <td>مِتْفَعَلٌ</td>
+                </tr>
+                <tr>
+                  <td>تَعَلَّمَ</td>
+                  <td>يَتَعَلَّمُ</td>
+                  <td>تَعَلَّمْ</td>
+                  <td>تُعُلِّمَ</td>
+                  <td>يُتَعَلَّمُ</td>
+                  <td>تَعْلِيمٌ</td>
+                  <td>مُتَعَلِّمٌ</td>
+                  <td>مُتَعَلَّمٌ</td>
+                  <td>مَعْلَمٌ</td>
+                  <td>مِعْلَمٌ</td>
+                </tr>
+                <tr>
+                  <td>تَدَرَّبَ</td>
+                  <td>يَتَدَرَّبُ</td>
+                  <td>تَدَرَّبْ</td>
+                  <td>تُدُرِّبَ</td>
+                  <td>يُتَدَرَّبُ</td>
+                  <td>تَدْرِيبٌ</td>
+                  <td>مُتَدَرِّبٌ</td>
+                  <td>مُتَدَرَّبٌ</td>
+                  <td>مَدْرَبٌ</td>
+                  <td>مِدْرَبٌ</td>
+                </tr>
+                <tr>
+                  <td>تَفَجَّرَ</td>
+                  <td>يَتَفَجَّرُ</td>
+                  <td>تَفَجَّرْ</td>
+                  <td>تُفُجِّرَ</td>
+                  <td>يُتَفَجَّرُ</td>
+                  <td>تَفْجِيرٌ</td>
+                  <td>مُتَفَجِّرٌ</td>
+                  <td>مُتَفَجَّرٌ</td>
+                  <td>مَفْجَرٌ</td>
+                  <td>مِفْجَرٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measure VI -->
+      <div class="accordion">
+        <div class="accordion-header">
+          <span>Measure VI - Reflexive of Measure III</span>
+          <span>&#9660;</span>
+        </div>
+        <div class="accordion-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Perfect (Past)</th>
+                  <th>Imperfect (Present)</th>
+                  <th>Imperative (Command)</th>
+                  <th>Passive Perfect (Past)</th>
+                  <th>Passive Imperfect (Present)</th>
+                  <th>Verbal Noun (Masdar)</th>
+                  <th>Agent (Active Participle)</th>
+                  <th>Recipient (Passive Participle)</th>
+                  <th>Noun of Place & Time</th>
+                  <th>Noun of Instrument</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>تَفَاعَلَ</td>
+                  <td>يَتَفَاعَلُ</td>
+                  <td>تَفَاعَلْ</td>
+                  <td>تُفُوعِلَ</td>
+                  <td>يُتَفَاعَلُ</td>
+                  <td>تَفَاعُلٌ</td>
+                  <td>مُتَفَاعِلٌ</td>
+                  <td>مُتَفَاعَلٌ</td>
+                  <td>مَتْفَعَلٌ</td>
+                  <td>مِتْفَعَلٌ</td>
+                </tr>
+                <tr>
+                  <td>تَقَابَلَ</td>
+                  <td>يَتَقَابَلُ</td>
+                  <td>تَقَابَلْ</td>
+                  <td>تُقُوبِلَ</td>
+                  <td>يُتَقَابَلُ</td>
+                  <td>تَقَابُلٌ</td>
+                  <td>مُتَقَابِلٌ</td>
+                  <td>مُتَقَابَلٌ</td>
+                  <td>مَقْبَلٌ</td>
+                  <td>مِقْبَلٌ</td>
+                </tr>
+                <tr>
+                  <td>تَسَابَقَ</td>
+                  <td>يَتَسَابَقُ</td>
+                  <td>تَسَابَقْ</td>
+                  <td>تُسُوبِقَ</td>
+                  <td>يُتَسَابَقُ</td>
+                  <td>تَسَابُقٌ</td>
+                  <td>مُتَسَابِقٌ</td>
+                  <td>مُتَسَابَقٌ</td>
+                  <td>مَسْبَقٌ</td>
+                  <td>مِسْبَقٌ</td>
+                </tr>
+                <tr>
+                  <td>تَحَاوَرَ</td>
+                  <td>يَتَحَاوَرُ</td>
+                  <td>تَحَاوَرْ</td>
+                  <td>تُحُورِرَ</td>
+                  <td>يُتَحَاوَرُ</td>
+                  <td>تَحَاوُرٌ</td>
+                  <td>مُتَحَاوِرٌ</td>
+                  <td>مُتَحَاوَرٌ</td>
+                  <td>مَحْوَرٌ</td>
+                  <td>مِحْوَرٌ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+     <!-- Measure VII -->
+<div class="accordion">
+  <div class="accordion-header">
+    <span>Measure VII - Passive of Measure I</span>
+    <span>&#9660;</span>
+  </div>
+  <div class="accordion-content">
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Perfect (Past)</th>
+            <th>Imperfect (Present)</th>
+            <th>Imperative (Command)</th>
+            <th>Passive Perfect (Past)</th>
+            <th>Passive Imperfect (Present)</th>
+            <th>Verbal Noun (Masdar)</th>
+            <th>Agent (Active Participle)</th>
+            <th>Recipient (Passive Participle)</th>
+            <th>Noun of Place & Time</th>
+            <th>Noun of Instrument</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>انْفَعَلَ</td>
+            <td>يَنْفَعِلُ</td>
+            <td>انْفَعِلْ</td>
+            <td>نُفْعِلَ</td>
+            <td>يُنْفَعَلُ</td>
+            <td>انْفِعَالٌ</td>
+            <td>مُنْفَعِلٌ</td>
+            <td>مُنْفَعَلٌ</td>
+            <td>مَنْفَعَلٌ</td>
+            <td>مِنْفَعَلٌ</td>
+          </tr>
+          <tr>
+            <td>انْكَسَرَ</td>
+            <td>يَنْكَسِرُ</td>
+            <td>انْكَسِرْ</td>
+            <td>نُكْسِرَ</td>
+            <td>يُنْكَسَرُ</td>
+            <td>انْكِسَارٌ</td>
+            <td>مُنْكَسِرٌ</td>
+            <td>مُنْكَسَرٌ</td>
+            <td>مَنْكَسَرٌ</td>
+            <td>مِنْكَسَرٌ</td>
+          </tr>
+          <tr>
+            <td>انْطَلَقَ</td>
+            <td>يَنْطَلِقُ</td>
+            <td>انْطَلِقْ</td>
+            <td>نُطْلِقَ</td>
+            <td>يُنْطَلَقُ</td>
+            <td>انْطِلَاقٌ</td>
+            <td>مُنْطَلِقٌ</td>
+            <td>مُنْطَلَقٌ</td>
+            <td>مَنْطَلَقٌ</td>
+            <td>مِنْطَلَقٌ</td>
+          </tr>
+          <tr>
+            <td>انْقَلَبَ</td>
+            <td>يَنْقَلِبُ</td>
+            <td>انْقَلِبْ</td>
+            <td>نُقْلِبَ</td>
+            <td>يُنْقَلَبُ</td>
+            <td>انْقِلَابٌ</td>
+            <td>مُنْقَلِبٌ</td>
+            <td>مُنْقَلَبٌ</td>
+            <td>مَنْقَلَبٌ</td>
+            <td>مِنْقَلَبٌ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Measure VIII -->
+<div class="accordion">
+  <div class="accordion-header">
+    <span>Measure VIII - Reflexive of Measure I</span>
+    <span>&#9660;</span>
+  </div>
+  <div class="accordion-content">
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Perfect (Past)</th>
+            <th>Imperfect (Present)</th>
+            <th>Imperative (Command)</th>
+            <th>Passive Perfect (Past)</th>
+            <th>Passive Imperfect (Present)</th>
+            <th>Verbal Noun (Masdar)</th>
+            <th>Agent (Active Participle)</th>
+            <th>Recipient (Passive Participle)</th>
+            <th>Noun of Place & Time</th>
+            <th>Noun of Instrument</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>افْتَعَلَ</td>
+            <td>يَفْتَعِلُ</td>
+            <td>افْتَعِلْ</td>
+            <td>اُفْتُعِلَ</td>
+            <td>يُفْتَعَلُ</td>
+            <td>افْتِعَالٌ</td>
+            <td>مُفْتَعِلٌ</td>
+            <td>مُفْتَعَلٌ</td>
+            <td>مَفْتَعَلٌ</td>
+            <td>مِفْتَعَلٌ</td>
+          </tr>
+          <tr>
+            <td>اشْتَرَكَ</td>
+            <td>يَشْتَرِكُ</td>
+            <td>اشْتَرِكْ</td>
+            <td>اُشْتُرِكَ</td>
+            <td>يُشْتَرَكُ</td>
+            <td>اشْتِرَاكٌ</td>
+            <td>مُشْتَرِكٌ</td>
+            <td>مُشْتَرَكٌ</td>
+            <td>مَشْتَرَكٌ</td>
+            <td>مِشْتَرَكٌ</td>
+          </tr>
+          <tr>
+            <td>اتَّفَقَ</td>
+            <td>يَتَّفِقُ</td>
+            <td>اتَّفِقْ</td>
+            <td>اُتُّفِقَ</td>
+            <td>يُتَّفَقُ</td>
+            <td>اتِّفَاقٌ</td>
+            <td>مُتَّفِقٌ</td>
+            <td>مُتَّفَقٌ</td>
+            <td>مَتَّفَقٌ</td>
+            <td>مِتَّفَقٌ</td>
+          </tr>
+          <tr>
+            <td>انْتَشَرَ</td>
+            <td>يَنْتَشِرُ</td>
+            <td>انْتَشِرْ</td>
+            <td>اُنْتُشِرَ</td>
+            <td>يُنْتَشَرُ</td>
+            <td>انْتِشَارٌ</td>
+            <td>مُنْتَشِرٌ</td>
+            <td>مُنْتَشَرٌ</td>
+            <td>مَنْتَشَرٌ</td>
+            <td>مِنْتَشَرٌ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Measure IX -->
+<div class="accordion">
+  <div class="accordion-header">
+    <span>Measure IX - Color and Physical Defects</span>
+    <span>&#9660;</span>
+  </div>
+  <div class="accordion-content">
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Perfect (Past)</th>
+            <th>Imperfect (Present)</th>
+            <th>Imperative (Command)</th>
+            <th>Passive Perfect (Past)</th>
+            <th>Passive Imperfect (Present)</th>
+            <th>Verbal Noun (Masdar)</th>
+            <th>Agent (Active Participle)</th>
+            <th>Recipient (Passive Participle)</th>
+            <th>Noun of Place & Time</th>
+            <th>Noun of Instrument</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>افْعَلَّ</td>
+            <td>يَفْعَلُّ</td>
+            <td>افْعَلَّ</td>
+            <td>اُفْعِلَّ</td>
+            <td>يُفْعَلُّ</td>
+            <td>افْعِلالٌ</td>
+            <td>مُفْعِلٌّ</td>
+            <td>مُفْعَلٌّ</td>
+            <td>مَفْعَلٌّ</td>
+            <td>مِفْعَلٌّ</td>
+          </tr>
+          <tr>
+            <td>احْمَرَّ</td>
+            <td>يَحْمَرُّ</td>
+            <td>احْمَرَّ</td>
+            <td>حُمِّرَ</td>
+            <td>يُحْمَرُّ</td>
+            <td>احْمِرَارٌ</td>
+            <td>مُحْمَرٌّ</td>
+            <td>مُحْمَرَّ</td>
+            <td>مَحْمَرٌّ</td>
+            <td>مِحْمَرٌّ</td>
+          </tr>
+          <tr>
+            <td>ازْرَقَّ</td>
+            <td>يَزْرَقُّ</td>
+            <td>ازْرَقَّ</td>
+            <td>زُرِّقَ</td>
+            <td>يُزْرَقُّ</td>
+            <td>ازْرِقَاقٌ</td>
+            <td>مُزْرَقٌّ</td>
+            <td>مُزْرَقَّ</td>
+            <td>مَزْرَقٌّ</td>
+            <td>مِزْرَقٌّ</td>
+          </tr>
+          <tr>
+            <td>اشْهَبَّ</td>
+            <td>يَشْهَبُّ</td>
+            <td>اشْهَبَّ</td>
+            <td>شُهِبَّ</td>
+            <td>يُشْهَبُّ</td>
+            <td>اشْهِبَابٌ</td>
+            <td>مُشْهِبٌّ</td>
+            <td>مُشْهَبٌّ</td>
+            <td>مَشْهَبٌّ</td>
+            <td>مِشْهَبٌّ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
